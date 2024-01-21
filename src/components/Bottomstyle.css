@@ -1,0 +1,366 @@
+.bottom {
+    width: 100%;
+    height: 640px;
+    background-color: #161616;
+    display: flex;
+}
+
+.left {
+    width: 40%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.left>img {
+    height: 40%;
+    width: 28%;
+    margin-top: 10%;
+}
+
+.left>p {
+    position: absolute;
+    color: #808080;
+    bottom: 50%;
+    width: 78%;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: Cabinet Grotesk;
+    margin-left: 4%;
+}
+
+.contact {
+    width: 78%;
+    margin-left: 4%;
+    display: flex;
+}
+
+.contact>span {
+    color: #808080;
+    margin: 3% 10px 0;
+    border-bottom: 3px solid #161616;
+}
+
+.contact>div>p {
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.col {
+    color: white;
+    width: 90%;
+    margin-top: 4%;
+    margin-left: 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftmost>p {
+    color: #808080;
+}
+
+.mid>p {
+    color: #808080;
+}
+
+.rightmost>p {
+    color: #808080;
+}
+
+.right {
+    width: 40%;
+    height: 90%;
+    margin: auto;
+    padding-top: 4%;
+}
+
+.up {
+    margin-left: 10%;
+    width: 80%;
+    font-style: Cabinet Grotesk;
+    font-size: 70px;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-left: 18%;
+}
+
+
+/* .up>h1 {
+    font-style: Cabinet Grotesk;
+    font-size: 70px;
+    font-weight: 800;
+    color: #FFFFFF;
+} */
+
+.up>h1>span {
+    color: #017DE3;
+}
+
+.rightmid {
+    margin-left: 18%;
+    width: 60%;
+}
+
+.rightmid>p {
+    font-style: Cabinet Grotesk;
+    font-size: 18px;
+    font-weight: 400;
+    color: #808080;
+}
+
+.rightmid1 {
+    margin-top: 20%;
+    margin-left: 18%;
+}
+
+.rightmid1>p {
+    font-style: Cabinet Grotesk;
+    font-size: 15px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.bot {
+    width: 75%;
+    height: 18%;
+    margin: 3% 18% auto;
+    display: flex;
+}
+
+.left1 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.left1>button {
+    margin-top: 5%;
+    width: 90%;
+    color: #EDEEF0;
+    height: 42%;
+    border: transparent;
+    border-radius: 10px;
+    background-color: #0375D4;
+}
+
+.left1>button:nth-child(2) {
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+}
+
+.right1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right1>button {
+    margin-top: 5%;
+    width: 90%;
+    height: 42%;
+    border: transparent;
+    border-radius: 10px;
+    color: #EDEEF0;
+    background-color: #0375D4;
+}
+
+.right1>button:nth-child(2) {
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #575757;
+}
+
+.last {
+    width: 100%;
+    height: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: #FFFFFF;
+    background-color: #161616;
+    text-align: center;
+}
+
+@media screen and (max-width:1390px) {
+    .bottom {
+        width: 100%;
+        height: 640px;
+        background-color: #f17777;
+        display: flex;
+    }
+    .left {
+        width: 40%;
+        height: 100%;
+        margin: auto;
+        position: relative;
+    }
+    .left>img {
+        height: 40%;
+        width: 35%;
+        margin-top: 10%;
+    }
+    .left>p {
+        position: absolute;
+        color: #808080;
+        bottom: 52%;
+        width: 78%;
+        font-size: 14px;
+        font-weight: 400;
+        font-style: Cabinet Grotesk;
+        margin-left: 4%;
+    }
+    .contact {
+        width: 78%;
+        margin-left: 4%;
+        display: flex;
+    }
+    .contact>span {
+        color: #808080;
+        margin: 4% 10px 0;
+        border-bottom: 3px solid #161616;
+    }
+    .contact>div>p {
+        border-bottom: 1px solid white;
+        color: white;
+    }
+    .col {
+        color: white;
+        width: 90%;
+        margin-top: 4%;
+        margin-left: 4%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .right {
+        width: 40%;
+        height: 90%;
+        margin: auto;
+        padding-top: 4%;
+    }
+    .up {
+        background-color: red;
+        width: 80%;
+        padding: 0;
+        font-style: Cabinet Grotesk;
+        font-size: 60px;
+        font-weight: 800;
+        color: #FFFFFF;
+    }
+    /* .up>h1 {
+        
+        padding: 0;
+        font-style: Cabinet Grotesk;
+        font-size: 4rem;
+        font-weight: 800;
+        color: #FFFFFF;
+    } */
+    .rightmid {
+        margin-left: 18%;
+        width: 70%;
+    }
+    .rightmid1 {
+        margin-top: 24%;
+        margin-left: 18%;
+    }
+    .rightmid>p {
+        font-style: Cabinet Grotesk;
+        font-size: 16px;
+        font-weight: 400;
+        color: #808080;
+    }
+    .bot {
+        width: 75%;
+        height: 18%;
+        margin: 3% 18% auto;
+        display: flex;
+    }
+}
+
+@media screen and (max-width:1120px) {
+    .bottom {
+        width: 100%;
+        height: 640px;
+        background-color: #2f0079;
+        display: flex;
+    }
+    .left {
+        width: 40%;
+        height: 100%;
+        margin: auto;
+        position: relative;
+    }
+    .left>img {
+        height: 40%;
+        width: 39%;
+        margin-top: 16%;
+    }
+    .left>p {
+        position: absolute;
+        color: #808080;
+        bottom: 52%;
+        width: 78%;
+        font-size: 13px;
+        font-weight: 400;
+        font-style: Cabinet Grotesk;
+        margin-left: 4%;
+    }
+    .contact {
+        width: 78%;
+        margin-left: 4%;
+        display: flex;
+    }
+    .contact>span {
+        color: #808080;
+        margin: 4% 10px 0;
+        /* border-bottom: 3px solid #161616; */
+    }
+    .contact>div>p {
+        border-bottom: 1px solid white;
+        color: white;
+    }
+    .col {
+        color: white;
+        width: 90%;
+        margin-top: 4%;
+        margin-left: 4%;
+        display: flex;
+        font-size: 14px;
+        justify-content: space-between;
+    }
+    .right {
+        width: 40%;
+        height: 90%;
+        margin: auto;
+        padding-top: 6%;
+    }
+    .up {
+        width: 90%;
+        /* padding: 0; */
+        margin-left: 15%;
+        font-style: Cabinet Grotesk;
+        font-size: 58px;
+        font-weight: 800;
+        color: #FFFFFF;
+    }
+    .rightmid {
+        /* margin-left: 18%; */
+        width: 70%;
+    }
+    .rightmid>p {
+        font-style: Cabinet Grotesk;
+        font-size: 16px;
+        font-weight: 400;
+        color: #808080;
+    }
+    .bot {
+        width: 75%;
+        height: 18%;
+        margin: 4% 18% auto;
+        display: flex;
+    }
+}

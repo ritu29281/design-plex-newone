@@ -1,0 +1,187 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    padding-top: 6%;
+    width: 100%;
+    background-image: url("Bg.png");
+}
+
+h1 {
+    font-style: Cabinet Grotesk;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    margin: auto;
+    color: #161616;
+}
+
+.footer1 {
+    width: 80%;
+    margin: 12px auto;
+}
+
+.footer1>h1 {
+    margin-top: 4%;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: Cabinet Grotesk;
+}
+
+.footer1>h1>h1 {
+    font-size: 24px;
+    font-weight: 500;
+    font-style: Cabinet Grotesk;
+}
+
+.footer1>span {
+    color: #007EE5;
+}
+
+h1>span {
+    color: #007EE5;
+}
+
+section {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faq {
+    width: 80%;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.ques {
+    margin-left: 12px;
+    margin-right: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ques>h2 {
+    font-style: Cabinet Grotesk;
+    font-size: 33.8px;
+    font-weight: 700;
+}
+
+.ques>h2>span {
+    color: #007EE5;
+}
+
+.ans {
+    max-height: 0px;
+    overflow: hidden;
+}
+
+.active {
+    padding-top: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
+    border-radius: 46.03px;
+    border-top: 0.93px solid #161616;
+    background-color: #F6F7F9;
+}
+
+.activeans {
+    padding-bottom: 2%;
+    max-height: 150px;
+}
+
+.ans>p {
+    margin-left: 12px;
+    margin-right: 12px;
+    font-style: Cabinet Grotesk;
+    font-size: 27.6px;
+    font-weight: 400;
+    color: #5C5C5C;
+}
+
+.logo {
+    width: 15%;
+    height: 200px;
+    margin: 10% auto 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo>img {
+    width: 100%;
+    /* height: 100%; */
+    /* margin: auto;
+    justify-content: center;
+    align-items: center; */
+}
+
+.lesson {
+    text-align: center;
+}
+
+.lesson>h2 {
+    /* margin: 0; */
+    font-style: Cabinet Grotesk;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.lesson>h2>span {
+    color: #007EE5;
+}
+
+.para>p {
+    margin: auto;
+    margin-bottom: -10px;
+    text-align: center;
+    width: 40%;
+    font-style: Open Sauce Sans;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.btn {
+    position: relative;
+    width: 70%;
+    height: 55px;
+    display: flex;
+    border-radius: 100px;
+    margin: 8% auto 0;
+    padding-bottom: 15%;
+}
+
+.btn>input {
+    padding-left: 22px;
+    border: transparent;
+    width: 100%;
+    border-radius: 100px;
+}
+
+.btn>button {
+    width: 20%;
+    height: 55px;
+    right: 0;
+    font-size: 22px;
+    color: #F6F7F9;
+    background-color: #161616;
+    position: absolute;
+    border-radius: 100px;
+}
+
+.icons {
+    margin: 15px auto 15px;
+    width: 83%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,7 +1,12 @@
+import Footer from "./Footer";
+import Bottom from "./Bottom";
+// import { faqs } from "./Faq";
 const HomePage = () => {
   return (
     <>
-      <div>This is homepage...</div>
+      {" "}
+      <Footer />
+      <Bottom />
     </>
   );
 };
