@@ -1,7 +1,16 @@
+import React from 'react';
+import Navbar from './navbar';
+import Heropage from './heropage';
+
 const HomePage = () => {
   return (
     <>
-      <div>This is homepage...</div>
+    
+    <Navbar/>
+    <Heropage/>
+     
+    
+     
     </>
   );
 };
