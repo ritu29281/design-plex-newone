@@ -1,3 +1,14 @@
+
 *{
   font-family: 'Cabinet Grotesk', sans-serif;
 }
+body{
+  background-image: url("Image.svg");
+  
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
